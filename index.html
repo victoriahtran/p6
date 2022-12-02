@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Victoria Tran</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="./css/glide.css" />
+
+    <!-- <link
+      rel="stylesheet"
+      href="./node_modules/@glidejs/glide/dist/css/glide.core.min.css"
+    /> -->
+
+    <link rel="stylesheet" href="https://use.typekit.net/jin5oza.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <nav>
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#resume">resume</a>
+      <a href="#projects">projects</a>
+    </nav>
+
+    <main>
+      <section id="home">
+        <img
+          src="./assets/images/selfpicture.png"
+          alt="Picture of Victoria Tran"
+        />
+        <h1>VICTORIA <br />TRAN</h1>
+      </section>
+      <section id="about">
+        <div class="section-title">
+          <img src="./assets/images/eyes.png" alt="Picture of eyes." />
+          <h2 class="highlight">— hello!</h2>
+        </div>
+        <div class="content">
+          <p>
+            I’m Victoria, a current junior at
+            <span class="highlight">Northwestern University</span> in Evanston,
+            IL. I'm majoring in
+            <span class="highlight">Computer Science</span> in addition to
+            pursuing the
+            <span class="highlight"
+              >Human-Computer Interaction Certificate.</span
+            >
+            I’m primarily interested in software development, design, and
+            human-computer interaction.
+          </p>
+          <p>
+            Apart from school, I enjoy creative writing, fashion, curating my
+            skincare routine, making Spotify playlists, cooking (I thankfully
+            haven't burned down my kitchen yet), and scouring Yelp for the next
+            best place to eat. Feel free to contact me!
+          </p>
+        </div>
+      </section>
+      <section id="resume">
+        <div class="section-title">
+          <img src="./assets/images/eyes.png" alt="Picture of eyes." />
+          <h2 class="highlight">— resume!</h2>
+        </div>
+        <div class="content">
+          <div class="resume-1">
+            <h3>NORTHWESTERN UNIVERSITY</h3>
+            <h3 class="subtitle">Computer Science + HCI Certificate</h3>
+            <p>
+              <span class="bold">Coursework:</span> Web Development, HCI,
+              Artificial Intelligence, Data Structures & Algorithms, Generative
+              Methods, Design & Analysis of Algorithms, Discrete Math, Computer
+              Systems
+            </p>
+          </div>
+          <div class="resume-2">
+            <h3 class="skills">SKILLS</h3>
+            <p class="skilllist">
+              <span class="bold">Languages:</span> Python, JavaScript, HTML,
+              CSS, React, React Native, C, C++, SQL
+            </p>
+            <p class="skilllist">
+              <span class="bold">Design:</span> Figma, Photoshop, Illustrator
+            </p>
+            <p class="skilllist">
+              <span class="bold">Other:</span> Git, Firebase, Postman, Heroku,
+              Flask, NumPy
+            </p>
+          </div>
+        </div>
+        <button class="download">
+          <a
+            href="./assets/downloads/Resume_VictoriaTran.pdf"
+            download="Resume_VictoriaTran"
+          >
+            DOWNLOAD FULL .PDF
+          </a>
+        </button>
+      </section>
+
+      <section id="projects">
+        <div class="section-title">
+          <img src="./assets/images/eyes.png" alt="Picture of eyes." />
+          <h2 class="highlight">— projects!</h2>
+        </div>
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="content">
+                  <div class="piccontainer">
+                    <img
+                      class="projectimg"
+                      src="./assets/images/cerebro.jpg"
+                      alt="Picture of Cerebro."
+                    />
+                  </div>
+                  <div class="project-info">
+                    <h3>OCEs for Relationship Development</h3>
+                    <p>
+                      How can location-based technology facilitate relationship
+                      development? As part of Design, Technology, and Research
+                      Program under the Delta Lab at Northwestern University, I
+                      seek to answer these questions through self-directed
+                      undergraduate research, furthering the development of the
+                      Cerebro app. Click
+                      <a class="highlight" href="oces.html">here</a>
+                      to read more.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="content">
+                  <div class="piccontainer">
+                    <img
+                      class="projectimg"
+                      src="./assets/images/clubhub.PNG"
+                      alt="Picture of ClubHub."
+                    />
+                  </div>
+                  <div class="project-info">
+                    <h3>CLUBHUB</h3>
+                    <p>
+                      App designed for students to keep track of the clubs and
+                      organizations they are involved in. Functions include
+                      following clubs and being able to view a club’s basic
+                      information. Developed as part of Northwestern’s Institute
+                      of Electrical and Electronics Engineers (IEEE) in a team
+                      of 5.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              prev
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              next
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Designed &amp; Developed by <span class="highlight">Victoria Tran</span>
+      </p>
+      <div class="links">
+        <a href="mailto:victoriatran2024@u.northwestern.edu">
+          <img src="./assets/icons/email.png" alt="Click icon to email." />
+        </a>
+        <a href="https://github.com/victoriahtran" target="_blank">
+          <img
+            src="./assets/icons/github.png"
+            alt="Click icon to access GitHub."
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/victoriahcntran/" target="_blank">
+          <img
+            src="./assets/icons/linkedin.png"
+            alt="Click icon to access LinkedIn."
+          />
+        </a>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+
+    <script src="./glide.js"></script>
+    <script>
+      new Glide(".glide").mount();
+    </script>
+  </body>
+</html>
